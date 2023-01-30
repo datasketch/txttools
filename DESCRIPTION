@@ -1,0 +1,23 @@
+Package: txttools
+Title: Tools For Processing Small Texts
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jp", "Marin Diaz", , "jpmarindiaz@gmail.com", 
+    role = c("aut", "cre"), comment = c(ORCID = ""))
+Description: Provides a wrapper for text processing packages to use for text
+    analysis in different languages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends:
+    R (>= 4.1.2)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    glue,
+    tidytext,
+    dplyr,
+    stringr,
+    fuzzyjoin
