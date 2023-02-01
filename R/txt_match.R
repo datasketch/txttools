@@ -34,7 +34,7 @@ txt_match <- function(d1, d2, by, method = NULL,
     dm <- purrr::reduce(ldm, dplyr::left_join)
   }
 
-
+  dm
 
 
 }
